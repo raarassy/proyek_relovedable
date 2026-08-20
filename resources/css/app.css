@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+
+    /* Palet brand Relovedable (pink/magenta) */
+    --color-relove-50: #fff0f6;
+    --color-relove-100: #ffe0ee;
+    --color-relove-200: #ffb8d6;
+    --color-relove-300: #ff84b8;
+    --color-relove-400: #f74e96;
+    --color-relove-500: #e6097b;
+    --color-relove-600: #c40069;
+    --color-relove-700: #9d0054;
+    --color-relove-800: #7a0042;
+    --color-relove-900: #5c0032;
+}
